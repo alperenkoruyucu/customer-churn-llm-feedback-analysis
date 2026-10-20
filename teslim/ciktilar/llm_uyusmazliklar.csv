@@ -1,0 +1,11 @@
+geri_bildirim_id,metin,duygu,konular,not,duygu_ilk,konular_ilk,duygu_dogru_ilk,konu_dogru_ilk,uyusmazlik_ilk,duygu_bonus,konular_bonus,duygu_dogru_bonus,konu_dogru_bonus,uyusmazlik_bonus,degisim
+9024,"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Karışık,diğer,"otopark listede yok, diğer",Karışık,iş_kalitesi|diğer,True,False,True,Karışık,diğer,True,True,False,duzeldi
+9071,"Harika bir deneyimdi, sadece üç hafta bekledim.",Karışık,süre,"ironi gibi, duygu Olumsuz olma ihtimali var",Olumsuz,süre,False,True,True,Olumsuz,süre,False,True,True,suruyor
+9091,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,"temizlik, personel, yedek_parça",,Karışık,temizlik|personel|yedek_parça|süre,True,False,True,Karışık,temizlik|personel|yedek_parça|süre,True,False,True,suruyor
+9136,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,"temizlik, personel, yedek_parça",,Karışık,temizlik|personel|yedek_parça|süre,True,False,True,Karışık,temizlik|personel|yedek_parça|süre,True,False,True,suruyor
+9300,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,,Olumsuz,fiyat|personel,True,False,True,Olumsuz,fiyat|personel,True,False,True,suruyor
+9330,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,diğer,"konu yok, Olumlu da olabilir",Olumlu,diğer,False,True,True,Olumlu,diğer,False,True,True,suruyor
+9451,?,Alakasız,,anlamlı içerik yok,Alakasız,diğer,True,False,True,Alakasız,,True,True,False,duzeldi
+9524,Kötü diyemem ama bir daha gelir miyim bilmiyorum.,Karışık,diğer,"kararsız, Olumsuza yakın",Olumsuz,diğer,False,True,True,Karışık,diğer,True,True,False,duzeldi
+9622,"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Karışık,diğer,,Karışık,iş_kalitesi|diğer,True,False,True,Karışık,diğer,True,True,False,duzeldi
+9639,,Alakasız,,metin boş,Alakasız,diğer,True,False,True,Alakasız,,True,True,False,duzeldi

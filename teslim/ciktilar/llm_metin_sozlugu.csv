@@ -1,0 +1,37 @@
+metin,duygu,konular
+,Alakasız,diğer
+"Randevu saatinde gittim ama iki saat bekledim, kimse bilgi vermedi.",Olumsuz,randevu|süre|personel
+Fena değildi.,Olumlu,diğer
+"Arıza çözüldü ancak randevu sistemi çok karışık, üç kez aramak zorunda kaldım.",Karışık,iş_kalitesi|randevu
+İyi.,Olumlu,diğer
+"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,randevu|süre
+"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Karışık,iş_kalitesi|diğer
+"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,personel|fiyat
+?,Alakasız,diğer
+Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,diğer
+"Beklediğimden erken bitti, aradılar haber verdiler.",Olumlu,süre|personel
+Bir yıldız bile fazla.,Olumsuz,diğer
+Sorun yok.,Olumlu,diğer
+"Rakip markanın servisinde aynı işlem daha ucuzdu, orayı tercih edeceğim.",Olumsuz,fiyat
+"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik
+"Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",Olumsuz,iş_kalitesi
+"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,iş_kalitesi|personel
+"Aracımla ilgili değil ama web sitenizden randevu alınmıyor, sürekli hata veriyor.",Olumsuz,randevu
+Yedek araç verilmesi büyük kolaylık oldu.,Olumlu,diğer
+"Yedek parça iki hafta bekledi, bu süre boyunca aracım serviste kaldı.",Olumsuz,yedek_parça|süre
+"Harika bir deneyimdi, sadece üç hafta bekledim.",Olumsuz,süre
+"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat
+"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat|personel
+"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik
+Kötü diyemem ama bir daha gelir miyim bilmiyorum.,Olumsuz,diğer
+"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,temizlik|personel|yedek_parça|süre
+İşçilik kalitesi iyiydi ama fiyatlandırma gerçekten pahalı.,Karışık,iş_kalitesi|fiyat
+"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel
+"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",Olumsuz,diğer
+"Personel çok nazikti, sadece süre biraz uzun sürdü.",Karışık,personel|süre
+-,Alakasız,diğer
+"Telefonla kimseye ulaşamıyorum, çağrı merkezi sürekli meşgul.",Olumsuz,personel
+Teşekkürler,Olumlu,diğer
+Mükemmel değildi ama beklentimin altında da kalmadı.,Olumlu,diğer
+"Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",Olumlu,personel|süre
+"Hiç de memnun kalmadım denemez, işlerini biliyorlar.",Olumlu,iş_kalitesi

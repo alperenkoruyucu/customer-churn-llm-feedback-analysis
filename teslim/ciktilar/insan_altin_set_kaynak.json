@@ -1,0 +1,10 @@
+{
+  "kaynak": "yeni_altin_set_etiketli.csv",
+  "kaynak_beyani": "Kendim elle etiketlediğim 40 kaydı içeren dosya; nihai insan referansı olarak kullandım.",
+  "sha256": "d70e4f4af7aca4872585ae335714ab98faa64703037b81d1d5b2fa8f3fa09a74",
+  "n": 40,
+  "kimlik_metin_tam_eslesme": true,
+  "degistirildi": false,
+  "etiketleme_yontemi": "40 kaydı kendim elle etiketledim. LLM çıktısını önceden görüp görmediğimden emin olmadığım için kör etiketleme iddiasında bulunmuyorum; LLM etkisini dışlayamıyorum.",
+  "llm_ciktisi_gorunurlugu": "Emin değilim; kör etiketleme doğrulanmadı."
+}

@@ -1,0 +1,13 @@
+Türkçe yetkili servis yorumlarını anlamlarına göre etiketle. Duygu: Olumlu, Olumsuz, Karışık veya Alakasız. Konular çoklu liste: randevu, fiyat, süre, personel, iş_kalitesi, yedek_parça, temizlik, diğer. Yalnız girdinin anlamına göre karar ver; kimlik, müşteri hedefi veya referans cevap kullanma.
+
+Boş/anlamsız metin: Alakasız ve []. Anlamlı fakat somut konusu bulunmayan genel değerlendirme: diğer. Olumlu ve olumsuz değerlendirme birlikteyse Karışık; açık ironide yüzeydeki övgü yerine asıl eleştiriyi değerlendir. Çift olumsuzlamayı gerçek anlamıyla oku. Beklentiyi karşılama, mükemmel olmamakla birlikte şikâyet içermiyorsa olumlu olabilir. Belirsizlikte tek savunulabilir duygu seç; açıklanmayan bir sorunu uydurma.
+
+İş kalitesi: bakım/onarımın çözülmesi, düzgün yapılması veya sorunsuz hizmet sonucu. Bu konuda teknik bir arıza adı şart değil; bağlamdaki “sorunsuz” gibi sonuç ifadelerini atlama. Yalnız genel “servis iyi” övgüsünden belirli bir onarım sonucu çıkarma. Örnek: “Bakımdan sonra araç düzgün çalışıyor.” -> iş_kalitesi. “Hizmet güzeldi, otopark yetersizdi.” -> diğer, Karışık.
+
+Personel: çalışanların tutumu, ilgisi, açık iletişimi, haber vermesi veya bilgilendirmemesi; çalışanlara teşekkür de bu kapsamdadır. Yalnız meşgul hattan çalışan tutumu çıkarma. Fiyat: ücret, teklif, fatura veya fiyat kıyası. Fatura şikâyeti yanında açık bilgilendirilmeme varsa iki konuyu da değerlendir; referansla uyum için anlamlı bir konuyu bastırma.
+
+Randevu: randevu alma/değiştirme veya randevu sistemi. Yalnız randevu saatinde bekletilmek süre konusudur; ayrıca randevu süreci sorunu yoksa randevu ekleme. Süre: erken/geç bitme, işlem/teslim/bekleme süresine yönelik açık değerlendirme. Yedek parça: parça temini/bulunabilirliği. Parça bekleme süresi veya beklemekten duyulan rahatsızlık açıkça anlatılıyorsa yedek_parça ve süre birlikte seçilir. Bu sınır tartışmalı olsa da açık süre içeriği gizlenmez.
+
+Temizlik: araç/servis alanının temizliği. Diğer: konuların dışında kalan içerik veya somut konusu olmayan anlamlı değerlendirme. Bütün açık konuları seç; teknik etiketlerin yazımını koru. Aynı metne aynı etiket ver.
+
+Çıktı yalnız JSON dizisi: her nesnede i (anonim sıra), duygu, konular (liste). Girdideki her metni bir kez etiketle. Liste boş olabilir. Örnek cümleler çıktı girdisi değildir.

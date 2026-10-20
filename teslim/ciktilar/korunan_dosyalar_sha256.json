@@ -1,0 +1,10 @@
+{
+  "veri/geri_bildirimler.csv": "0e6a86b62e8e000d0e985e9377a406ca649a8af450688ee6bf278fa29995766b",
+  "veri/servis_kayitlari.csv": "7fdb003ff4b4cd96d336258df2b48b01b6c691e34ec40c6ce9f8967f780fa901",
+  "veri/musteriler.csv": "9b62947e96fe7849366cfdefee001ed397cdc1c3fd3434f8f6e0a88fab955969",
+  "veri/araclar.csv": "78be19953a0a2b6e1289cb0be2f418eb8a839a8e24ef1a8aa79d56146460fced",
+  "teslim/ciktilar/altin_set.csv": "d70e4f4af7aca4872585ae335714ab98faa64703037b81d1d5b2fa8f3fa09a74",
+  "teslim/ciktilar/llm_etiketleri.csv": "e461107bb99a82ff84e40512af0f456fc6d9e8a81c058051ed6ac546f5f722c8",
+  "teslim/kod/llm_sohbet_etiketleri.json": "4d62cb1c2a23de6a82158f736583914ac30c24933eba76da6ae21280298823ee",
+  "teslim/kod/llm_istem.txt": "a9e99bc6769b3a2a8dc9a9fedc73e202857dee2df28a12aa727fc610157af443"
+}

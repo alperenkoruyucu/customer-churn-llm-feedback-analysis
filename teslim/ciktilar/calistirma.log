@@ -1,0 +1,99 @@
+{
+  "n": 3973,
+  "churn_dagilimi": {
+    "0": 3315,
+    "1": 658
+  },
+  "train_n": 2383,
+  "validation_n": 795,
+  "test_n": 795,
+  "esik": 0.2632642735537504,
+  "validation": {
+    "roc_auc": 0.7836966954614013,
+    "average_precision": 0.4823668851884183,
+    "accuracy": 0.8125786163522013,
+    "precision": 0.44654088050314467,
+    "recall": 0.5378787878787878,
+    "f1": 0.4879725085910653,
+    "precision_at_20pct": 0.44654088050314467,
+    "recall_at_20pct": 0.5378787878787878,
+    "esikte_iletisim_orani": 0.2,
+    "confusion_matrix": [
+      [
+        575,
+        88
+      ],
+      [
+        61,
+        71
+      ]
+    ]
+  },
+  "test_model": {
+    "roc_auc": 0.7530622971799443,
+    "average_precision": 0.45427406590697084,
+    "accuracy": 0.8062893081761007,
+    "precision": 0.4236111111111111,
+    "recall": 0.4621212121212121,
+    "f1": 0.4420289855072464,
+    "precision_at_20pct": 0.4088050314465409,
+    "recall_at_20pct": 0.49242424242424243,
+    "esikte_iletisim_orani": 0.1811320754716981,
+    "confusion_matrix": [
+      [
+        580,
+        83
+      ],
+      [
+        71,
+        61
+      ]
+    ]
+  },
+  "test_baseline": {
+    "roc_auc": 0.5,
+    "average_precision": 0.1660377358490566,
+    "accuracy": 0.8339622641509434,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "precision_at_20pct": 0.15723270440251572,
+    "recall_at_20pct": 0.1893939393939394,
+    "esikte_iletisim_orani": 0.0,
+    "confusion_matrix": [
+      [
+        663,
+        0
+      ],
+      [
+        132,
+        0
+      ]
+    ]
+  },
+  "baseline_top20_notu": "Eşit riskte müşteri ID sırası; sıralama becerisi yok.",
+  "test_auc_bootstrap_95": [
+    0.7085025102673242,
+    0.7979164880450035
+  ],
+  "musteri_puani_welch": {
+    "p": 9.574089834553054e-25,
+    "t": 10.582523686246066,
+    "n0": 3274,
+    "n1": 652
+  }
+}
+     merkez  islem  musteri  yanit  yanit_orani  ham_ortalama   ci_alt   ci_ust  kurumsal_orani  ariza_orani  standart_ortalama
+ SM-Ankara1   3294     2171   2613     0.793260      3.987371 3.955575 4.018808        0.185792     0.149059           3.942184
+SM-Antalya1   2281     1679   1832     0.803157      3.978712 3.942722 4.020409        0.167032     0.144673           3.923580
+  SM-Bursa1   2456     1822   1942     0.790717      3.938208 3.900176 3.973746        0.183632     0.143322           3.890469
+ SM-Kadıköy   4234     2539   3334     0.787435      3.976005 3.946649 4.002397        0.174539     0.145961           3.929243
+SM-Kocaeli1   2035     1586   1608     0.790172      3.960199 3.919724 4.003778        0.184275     0.143489           3.900019
+  SM-Maslak   7830     3250   6170     0.787995      3.920259 3.896795 3.943639        0.172797     0.343423           3.994692
+  SM-İzmir1   2931     2044   2311     0.788468      3.925141 3.891862 3.958233        0.174002     0.150119           3.873925
+      recency_gun              frequency                   monetary                  ort_memnuniyet             
+             mean median count      mean median count          mean     median count           mean median count
+churn                                                                                                           
+0      104.339367   93.0  3315  6.453092    6.0  3315  85065.171793  68929.265  3314       4.007533  4.000  3274
+1      179.945289  174.0   658  5.574468    5.0   658  73245.315908  60548.285   658       3.792525  3.775   652
+{'ilk_temas_tarihi_gecersiz': 0, 'satin_alma_tarihi_gecersiz': 0, 'garanti_bitis_tarihi_gecersiz': 0, 'servis_tarihi_gecersiz': 0, 'tarih_gecersiz': 0, 'arac_musteri_yetim': 0, 'servis_arac_yetim': 0, 'geribildirim_arac_yetim': 0, 'negatif_tutar': 150, 'negatif_km': 40, 'gecersiz_puan': 0, 'satinalma_oncesi_servis': 0, 'satinalma_oncesi_geribildirim': 74, 'gecersiz_dogum': 18, 'yalniz_kesim_gunu_musteri': 1, 'hedef_oncesi_yeni_arac_servisleri': 0, 'ham_servis_feedback_left_join_satir': 33066, 'ham_memnuniyet_eksik_orani': 0.20979554470552333, 'ham_memnuniyet_ortalama': 3.938714037458969}

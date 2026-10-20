@@ -1,0 +1,18 @@
+{
+  "tarih": "2026-10-06",
+  "arayuz": "Codex üzerinden LLM etiketlemesi",
+  "model": "Kesin servis model sürümü doğrulanmadı",
+  "yontem": "İnsan değerlendirmesinde belirlenen hatalar doğrultusunda yönerge güncellendi; 36 farklı metin LLM ile yeniden etiketlendi. Etiketleme mevcut konuşma bağlamında gerçekleştirildi ve ham JSON yanıtı kaydedildi.",
+  "baglam_siniri": "İnsan etiketleri ve uyuşmazlık notları geliştirme sırasında modelin bağlamında bulunuyordu. Anonim sıra ve metin içeren girdi dosyası bu sınırlamayı ortadan kaldırmaz. Sonuçlar aynı insan altın seti üzerinde yapılan bir geliştirme karşılaştırmasıdır; bağımsız veya kör test değildir.",
+  "duzeltilen_etiket_sayisi": 0,
+  "cikarim_sayisi": 1,
+  "istem": "kod/llm_istem_bonus.txt",
+  "girdi": "kod/llm_bonus_girdi.json",
+  "ham_yanit": "kod/llm_bonus_ham_yanit.json",
+  "insan_altin_sha256": "d70e4f4af7aca4872585ae335714ab98faa64703037b81d1d5b2fa8f3fa09a74",
+  "toplam_etiketleme_turu": 3,
+  "rapordaki_karsilastirma": "Başlangıç ve bonus sonuçları aynı insan altın setinde karşılaştırılır. Ara turun sonuçları ayrıntılı değerlendirmede belirtilir.",
+  "model_karsilastirma_siniri": "Turlar arasında model sürümlerinin aynı olduğu doğrulanmadığından, iyileşmenin tamamı yalnızca yönerge değişimine bağlanamaz.",
+  "insan_etiketleme_siniri": "40 kaydı kendim elle etiketledim. LLM çıktısını önceden görüp görmediğimden emin olmadığım için kör etiketleme iddiasında bulunmuyorum; LLM etkisini dışlayamıyorum.",
+  "ornek_uyumu_siniri": "İstemdeki otopark örneği altın setteki bir yorumu yeniden ifade eder; boş metin kuralı referans etiket politikasına hizalanmıştır. Ölçülen artış bağımsız genelleme başarısı değildir."
+}

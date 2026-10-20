@@ -1,0 +1,155 @@
+{
+  "dosyalar": {
+    "musteriler": {
+      "ham_satir": 4235,
+      "tam_tekrar": 35,
+      "temiz_satir": 4200,
+      "anahtar_tekrari": 0,
+      "eksikler": {
+        "musteri_id": 0,
+        "sehir": 0,
+        "musteri_tipi": 0,
+        "dogum_yili": 97,
+        "ilk_temas_tarihi": 0,
+        "kayit_kanali": 0,
+        "crm_musteri_durumu": 0,
+        "son_iletisim_notu": 1531
+      },
+      "sha256": "9b62947e96fe7849366cfdefee001ed397cdc1c3fd3434f8f6e0a88fab955969"
+    },
+    "araclar": {
+      "ham_satir": 4786,
+      "tam_tekrar": 0,
+      "temiz_satir": 4786,
+      "anahtar_tekrari": 0,
+      "eksikler": {
+        "arac_id": 0,
+        "musteri_id": 0,
+        "marka": 0,
+        "model": 0,
+        "model_yili": 0,
+        "satin_alma_tarihi": 0,
+        "garanti_bitis_tarihi": 0,
+        "ilk_km": 0
+      },
+      "sha256": "78be19953a0a2b6e1289cb0be2f418eb8a839a8e24ef1a8aa79d56146460fced"
+    },
+    "servis_kayitlari": {
+      "ham_satir": 32770,
+      "tam_tekrar": 310,
+      "temiz_satir": 32460,
+      "anahtar_tekrari": 0,
+      "eksikler": {
+        "kayit_id": 0,
+        "arac_id": 0,
+        "servis_tarihi": 0,
+        "servis_tipi": 0,
+        "servis_merkezi": 0,
+        "km": 0,
+        "tutar": 0,
+        "memnuniyet_puani": 6875
+      },
+      "sha256": "7fdb003ff4b4cd96d336258df2b48b01b6c691e34ec40c6ce9f8967f780fa901"
+    },
+    "geri_bildirimler": {
+      "ham_satir": 640,
+      "tam_tekrar": 0,
+      "temiz_satir": 640,
+      "anahtar_tekrari": 0,
+      "eksikler": {
+        "geri_bildirim_id": 0,
+        "arac_id": 0,
+        "tarih": 0,
+        "kanal": 0,
+        "metin": 11
+      },
+      "sha256": "0e6a86b62e8e000d0e985e9377a406ca649a8af450688ee6bf278fa29995766b"
+    }
+  },
+  "kontroller": {
+    "ilk_temas_tarihi_gecersiz": 0,
+    "satin_alma_tarihi_gecersiz": 0,
+    "garanti_bitis_tarihi_gecersiz": 0,
+    "servis_tarihi_gecersiz": 0,
+    "tarih_gecersiz": 0,
+    "arac_musteri_yetim": 0,
+    "servis_arac_yetim": 0,
+    "geribildirim_arac_yetim": 0,
+    "negatif_tutar": 150,
+    "negatif_km": 40,
+    "gecersiz_puan": 0,
+    "satinalma_oncesi_servis": 0,
+    "satinalma_oncesi_geribildirim": 74,
+    "gecersiz_dogum": 18,
+    "yalniz_kesim_gunu_musteri": 1,
+    "hedef_oncesi_yeni_arac_servisleri": 0,
+    "ham_servis_feedback_left_join_satir": 33066,
+    "ham_memnuniyet_eksik_orani": 0.20979554470552333,
+    "ham_memnuniyet_ortalama": 3.938714037458969
+  },
+  "ozellikler": [
+    "frequency",
+    "monetary",
+    "ort_memnuniyet",
+    "ort_km",
+    "ariza_orani",
+    "merkez_sayisi",
+    "recency_gun",
+    "anket_yanit_orani",
+    "arac_sayisi",
+    "ort_arac_yasi",
+    "garanti_bitti_orani",
+    "geri_bildirim_sayisi"
+  ],
+  "ozellik_kesim_kontrolu": true,
+  "crm_hedef_tanisi": {
+    "crm_musteri_durumu": {
+      "Aktif": {
+        "n": 3176,
+        "churn": 37
+      },
+      "Kaybedildi": {
+        "n": 481,
+        "churn": 481
+      },
+      "Pasif": {
+        "n": 316,
+        "churn": 140
+      }
+    },
+    "son_iletisim_notu": {
+      "Araç satıldı": {
+        "n": 146,
+        "churn": 146
+      },
+      "Başka servise geçti": {
+        "n": 144,
+        "churn": 144
+      },
+      "Kampanya bilgilendirmesi": {
+        "n": 677,
+        "churn": 0
+      },
+      "Memnuniyet araması": {
+        "n": 656,
+        "churn": 0
+      },
+      "Randevu hatırlatması yapıldı": {
+        "n": 668,
+        "churn": 0
+      },
+      "Ulaşılamadı": {
+        "n": 123,
+        "churn": 123
+      },
+      "İlgilenmiyor": {
+        "n": 128,
+        "churn": 128
+      }
+    }
+  },
+  "aksiyon_uygun_musteri_sayisi": {
+    "ilk": 3,
+    "bonus": 2
+  }
+}

@@ -1,0 +1,13 @@
+2026-10-06 (Europe/Istanbul) — temiz ortam doğrulaması
+
+Güncel ZIP yeni bir geçici klasöre açıldı. Python 3.9.6 ile yeni .venv oluşturuldu; sistem paketlerini ve kullanıcı paketlerini miras almayan bu ortama requirements.txt bağımlılıkları pip ile kuruldu. Sanal ortamın ayrı olduğu ve kullanıcı paketlerinin kapalı olduğu doğrulandı.
+
+Kurulan doğrudan bağımlılıklar: numpy 2.0.2, pandas 2.3.3, scipy 1.13.1, scikit-learn 1.6.1, threadpoolctl 3.6.0.
+
+README sırası izlenerek etiket aktarımı, analiz, insan değerlendirmesi, iki rapor üretimi ve kontrol çalıştırıldı. Altı adımın tamamı çıkış 0 verdi; analiz stderr boştu. Ana rapor ve insan değerlendirmesi mevcut teslimdeki dosyalarla birebir yeniden üretildi. Sekiz sabit girdinin SHA-256 kontrolü geçti; insan etiketleri değişmedi. Yeniden hesaplanan model dosyaları hash manifestine dahil değildir; metrik tutarlılığı sayısal toleransla kontrol edilir.
+
+Başlangıç: duygu 37/40, konu tam eşleşmesi 33/40, uyuşmazlık 10 kayıt. Bonus: duygu 38/40, konu tam eşleşmesi 37/40, uyuşmazlık 5 kayıt. Benzersiz 25 metinde duygu 22/25 → 23/25; herhangi bir uyuşmazlık 8/25 → 4/25. Rapor 1.997 kelime; 48 yerel bağlantı ve iki SVG kontrolü geçti.
+
+Bu temiz ortam testi aynı macOS bilgisayarında yapıldı. Ayrı makine veya Linux doğrulaması yapılmadı. ZIP'in arşiv bütünlüğü ve güncel çalışma dosyalarıyla eşitliği ayrıca kontrol edildi.
+
+Kör insan etiketleme doğrulanmadı. Bonus aynı sette geliştirme karşılaştırmasıdır; bağımsız test değildir. İstemde referans yorumunu yeniden ifade eden örnek bulunduğundan artış bağımsız genelleme başarısı olarak sunulmaz.

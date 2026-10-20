@@ -1,0 +1,57 @@
+servis_merkezi,musteri_tipi,servis_tipi,islem,yanit,ortalama
+SM-Ankara1,Bireysel,Arıza Onarım,396,294,3.489795918367347
+SM-Ankara1,Bireysel,Kaporta/Boya,151,114,3.780701754385965
+SM-Ankara1,Bireysel,Lastik/Balans,297,236,3.9533898305084745
+SM-Ankara1,Bireysel,Periyodik Bakım,1838,1485,4.094949494949495
+SM-Ankara1,Kurumsal,Arıza Onarım,95,76,3.486842105263158
+SM-Ankara1,Kurumsal,Kaporta/Boya,26,17,3.9411764705882355
+SM-Ankara1,Kurumsal,Lastik/Balans,64,48,4.083333333333333
+SM-Ankara1,Kurumsal,Periyodik Bakım,427,343,4.139941690962099
+SM-Antalya1,Bireysel,Arıza Onarım,282,211,3.4644549763033177
+SM-Antalya1,Bireysel,Kaporta/Boya,96,81,3.8395061728395063
+SM-Antalya1,Bireysel,Lastik/Balans,211,159,4.169811320754717
+SM-Antalya1,Bireysel,Periyodik Bakım,1311,1073,4.05591798695247
+SM-Antalya1,Kurumsal,Arıza Onarım,48,27,3.2222222222222223
+SM-Antalya1,Kurumsal,Kaporta/Boya,24,20,3.95
+SM-Antalya1,Kurumsal,Lastik/Balans,47,42,4.0
+SM-Antalya1,Kurumsal,Periyodik Bakım,262,219,4.100456621004566
+SM-Bursa1,Bireysel,Arıza Onarım,285,212,3.452830188679245
+SM-Bursa1,Bireysel,Kaporta/Boya,105,80,3.625
+SM-Bursa1,Bireysel,Lastik/Balans,222,173,3.994219653179191
+SM-Bursa1,Bireysel,Periyodik Bakım,1393,1123,4.032947462154942
+SM-Bursa1,Kurumsal,Arıza Onarım,67,53,3.509433962264151
+SM-Bursa1,Kurumsal,Kaporta/Boya,32,22,3.6363636363636362
+SM-Bursa1,Kurumsal,Lastik/Balans,45,31,4.258064516129032
+SM-Bursa1,Kurumsal,Periyodik Bakım,307,248,4.064516129032258
+SM-Kadıköy,Bireysel,Arıza Onarım,514,360,3.513888888888889
+SM-Kadıköy,Bireysel,Kaporta/Boya,201,159,3.6729559748427674
+SM-Kadıköy,Bireysel,Lastik/Balans,388,305,4.108196721311476
+SM-Kadıköy,Bireysel,Periyodik Bakım,2392,1924,4.0691268191268195
+SM-Kadıköy,Kurumsal,Arıza Onarım,104,79,3.518987341772152
+SM-Kadıköy,Kurumsal,Kaporta/Boya,43,34,3.8529411764705883
+SM-Kadıköy,Kurumsal,Lastik/Balans,87,71,4.084507042253521
+SM-Kadıköy,Kurumsal,Periyodik Bakım,505,402,4.044776119402985
+SM-Kocaeli1,Bireysel,Arıza Onarım,229,161,3.347826086956522
+SM-Kocaeli1,Bireysel,Kaporta/Boya,101,87,3.7471264367816093
+SM-Kocaeli1,Bireysel,Lastik/Balans,170,133,3.9398496240601504
+SM-Kocaeli1,Bireysel,Periyodik Bakım,1160,921,4.07600434310532
+SM-Kocaeli1,Kurumsal,Arıza Onarım,63,49,3.306122448979592
+SM-Kocaeli1,Kurumsal,Kaporta/Boya,16,12,4.0
+SM-Kocaeli1,Kurumsal,Lastik/Balans,42,40,4.325
+SM-Kocaeli1,Kurumsal,Periyodik Bakım,254,205,4.107317073170732
+SM-Maslak,Bireysel,Arıza Onarım,2229,1655,3.5528700906344413
+SM-Maslak,Bireysel,Kaporta/Boya,666,522,3.8946360153256707
+SM-Maslak,Bireysel,Lastik/Balans,469,390,4.11025641025641
+SM-Maslak,Bireysel,Periyodik Bakım,3113,2529,4.13206801107157
+SM-Maslak,Kurumsal,Arıza Onarım,460,341,3.5718475073313782
+SM-Maslak,Kurumsal,Kaporta/Boya,138,113,3.8584070796460175
+SM-Maslak,Kurumsal,Lastik/Balans,108,81,4.074074074074074
+SM-Maslak,Kurumsal,Periyodik Bakım,647,539,4.1521335807050095
+SM-İzmir1,Bireysel,Arıza Onarım,366,259,3.416988416988417
+SM-İzmir1,Bireysel,Kaporta/Boya,121,88,3.852272727272727
+SM-İzmir1,Bireysel,Lastik/Balans,296,235,4.025531914893617
+SM-İzmir1,Bireysel,Periyodik Bakım,1638,1318,4.026555386949924
+SM-İzmir1,Kurumsal,Arıza Onarım,74,53,3.1132075471698113
+SM-İzmir1,Kurumsal,Kaporta/Boya,25,16,4.0
+SM-İzmir1,Kurumsal,Lastik/Balans,62,53,3.9245283018867925
+SM-İzmir1,Kurumsal,Periyodik Bakım,349,289,4.003460207612457

@@ -1,0 +1,124 @@
+{
+  "deneme": "ilk",
+  "n": 40,
+  "duygu_dogru": 37,
+  "konu_dogru": 33,
+  "duygu_accuracy": 0.925,
+  "duygu_macro_f1": 0.91861817617866,
+  "konu_exact_match": 0.825,
+  "konu_micro_f1": 0.9369369369369369,
+  "uyusmazlik_kaydi": 10,
+  "duygu_siniflar": {
+    "Olumlu": {
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1-score": 0.967741935483871,
+      "support": 15.0
+    },
+    "Olumsuz": {
+      "precision": 0.8823529411764706,
+      "recall": 1.0,
+      "f1-score": 0.9375,
+      "support": 15.0
+    },
+    "Karışık": {
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1-score": 0.7692307692307693,
+      "support": 8.0
+    },
+    "Alakasız": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "accuracy": 0.925,
+    "macro avg": {
+      "precision": 0.9549632352941176,
+      "recall": 0.90625,
+      "f1-score": 0.91861817617866,
+      "support": 40.0
+    },
+    "weighted avg": {
+      "precision": 0.9324448529411764,
+      "recall": 0.925,
+      "f1-score": 0.9183118796526054,
+      "support": 40.0
+    }
+  },
+  "konu_siniflar": {
+    "randevu": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "fiyat": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "süre": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 6.0
+    },
+    "personel": {
+      "precision": 0.9230769230769231,
+      "recall": 1.0,
+      "f1-score": 0.96,
+      "support": 12.0
+    },
+    "iş_kalitesi": {
+      "precision": 0.7142857142857143,
+      "recall": 1.0,
+      "f1-score": 0.8333333333333334,
+      "support": 5.0
+    },
+    "yedek_parça": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
+    "temizlik": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "diğer": {
+      "precision": 0.8666666666666667,
+      "recall": 1.0,
+      "f1-score": 0.9285714285714286,
+      "support": 13.0
+    },
+    "micro avg": {
+      "precision": 0.8813559322033898,
+      "recall": 1.0,
+      "f1-score": 0.9369369369369369,
+      "support": 52.0
+    },
+    "macro avg": {
+      "precision": 0.906753663003663,
+      "recall": 1.0,
+      "f1-score": 0.9473809523809524,
+      "support": 52.0
+    },
+    "weighted avg": {
+      "precision": 0.8925965060580445,
+      "recall": 1.0,
+      "f1-score": 0.9404029304029303,
+      "support": 52.0
+    },
+    "samples avg": {
+      "precision": 0.9,
+      "recall": 0.95,
+      "f1-score": 0.9178571428571427,
+      "support": 52.0
+    }
+  }
+}

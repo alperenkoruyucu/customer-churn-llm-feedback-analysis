@@ -1,0 +1,85 @@
+{
+  "n": 3973,
+  "churn_dagilimi": {
+    "0": 3315,
+    "1": 658
+  },
+  "train_n": 2383,
+  "validation_n": 795,
+  "test_n": 795,
+  "esik": 0.2632642735537504,
+  "validation": {
+    "roc_auc": 0.7836966954614013,
+    "average_precision": 0.4823668851884183,
+    "accuracy": 0.8125786163522013,
+    "precision": 0.44654088050314467,
+    "recall": 0.5378787878787878,
+    "f1": 0.4879725085910653,
+    "precision_at_20pct": 0.44654088050314467,
+    "recall_at_20pct": 0.5378787878787878,
+    "esikte_iletisim_orani": 0.2,
+    "confusion_matrix": [
+      [
+        575,
+        88
+      ],
+      [
+        61,
+        71
+      ]
+    ]
+  },
+  "test_model": {
+    "roc_auc": 0.7530622971799443,
+    "average_precision": 0.45427406590697084,
+    "accuracy": 0.8062893081761007,
+    "precision": 0.4236111111111111,
+    "recall": 0.4621212121212121,
+    "f1": 0.4420289855072464,
+    "precision_at_20pct": 0.4088050314465409,
+    "recall_at_20pct": 0.49242424242424243,
+    "esikte_iletisim_orani": 0.1811320754716981,
+    "confusion_matrix": [
+      [
+        580,
+        83
+      ],
+      [
+        71,
+        61
+      ]
+    ]
+  },
+  "test_baseline": {
+    "roc_auc": 0.5,
+    "average_precision": 0.1660377358490566,
+    "accuracy": 0.8339622641509434,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "precision_at_20pct": 0.15723270440251572,
+    "recall_at_20pct": 0.1893939393939394,
+    "esikte_iletisim_orani": 0.0,
+    "confusion_matrix": [
+      [
+        663,
+        0
+      ],
+      [
+        132,
+        0
+      ]
+    ]
+  },
+  "baseline_top20_notu": "Eşit riskte müşteri ID sırası; sıralama becerisi yok.",
+  "test_auc_bootstrap_95": [
+    0.7085025102673242,
+    0.7979164880450035
+  ],
+  "musteri_puani_welch": {
+    "p": 9.574089834553054e-25,
+    "t": 10.582523686246066,
+    "n0": 3274,
+    "n1": 652
+  }
+}

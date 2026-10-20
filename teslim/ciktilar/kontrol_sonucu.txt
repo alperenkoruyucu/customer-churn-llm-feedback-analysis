@@ -1,0 +1,1 @@
+GEÇTİ: 8 korunan dosya, 3973 tekil müşteri, zaman/başarı/aksiyon kontrolleri, 200 ilk ve bonus etiketi, 40 değişmeyen insan etiketi, 1997 kelime, 48 yerel bağlantı, iki SVG. Bu ölçüm kör test değil geliştirme karşılaştırmasıdır.

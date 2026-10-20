@@ -1,0 +1,34 @@
+2026-10-06 — Yapay zekâ kullanım günlüğü
+
+Araçlar ve görev paylaşımı: Codex'e analiz akışını ve Python kodunu hazırlattım; 200 yorumun başlangıç ve bonus etiketlerini, taslak iddiaların incelemesini ve üç aksiyon önerisini LLM ile ürettim. Python/pandas/scikit-learn/SciPy hesaplama ve doğrulamada kullanıldı; kontrol kodları da AI desteğiyle hazırlandı. 40 kaydı kendim elle etiketledim. LLM çıktısını önceden görüp görmediğimden emin olmadığım için kör etiketleme iddiasında bulunmuyorum; LLM etkisini dışlayamıyorum. Hazırlık aşamasında başka bir LLM ile üretilen taslak etiketleri insan referansı olarak kullanmadım.
+
+Aracın yanıldığı örnek: 9024 numaralı “Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.” yorumunda başlangıç LLM çıktısı Diğer yanında İş kalitesi de içeriyordu. Somut bakım veya onarım sonucu anlatılmadığı için bu ek konu gerekçesizdi. Kendim etiketlediğim setle kayıt bazında karşılaştırma 9024/9622 farkını gösterdi; ham yorumlar incelendiğinde genel övgüden iş sonucu çıkarılması örüntüsü belirlendi. Başlangıç çıktısı korunup yönerge güncellendi; bonus etiketlemesinde bu kaydın konu uyuşmazlığı giderildi.
+
+İlk aktarım kaydındaki gerçek hata: 36 metne 37 etiket; sayı kontrolü aktarımı durdurdu, fazladan satır metin/indeks karşılaştırmasıyla bulundu. İnsan karşılaştırmasında genel hizmet övgüsünden somut İş kalitesi çıkarma ve boş yorumda Diğer üretme sorunları görüldü. Ara denemede sorunsuz hizmet sonucu atlandı. İnsan etiketleri ve ilk çıktılar değiştirilmeden yeni istemle yeni gerçek LLM etiketlemesi yapıldı.
+
+Bonus değerlendirmesi: insan bulgularıyla güncellenen yönerge kullanılarak 36 farklı metin Codex aracılığıyla LLM ile yeniden etiketlendi. Ham JSON yanıtı sonradan etiket değişikliği yapılmadan saklandı. İnsan etiketleri geliştirme sırasında modelin bağlamında bulunduğundan, sonuçlar aynı set üzerinde yapılan bir geliştirme karşılaştırmasıdır; bağımsız veya kör test değildir. Turlar arasında model sürümlerinin aynı olduğu doğrulanmadığından, iyileşmenin tamamı yalnızca yönerge değişimine bağlanamaz. Yöntem kaydı ve bonus metrikleri ayrı dosyalardadır. Başlangıç sonuçlarının ve insan altın setinin değişmediği dosya özeti (SHA-256) kontrolüyle doğrulandı. Toplam üç etiketleme turu gerçekleştirildi; ara turda duygu doğruluğu %95, konu tam eşleşmesi %87,5 olarak ölçüldü.
+
+AI'ye devredilmeyen iş: 40 referans etiketini, tereddüt notlarını ve ironi kaydının son kararını kendim verdim. AI'nin kendi yanıtını doğrulaması insan değerlendirmesinin yerini tutmaz. İnsan etiketleri sonuca uyacak şekilde değiştirilmedi. Şirketin gerçek yetkilerini bilmediğim için iletişim kapasitesi ve izinli aksiyonların onayını iş birimine bırakıyorum.
+
+Bonusun artışı aynı sette ölçüldü: düzelen 5 kayıt 4 metindir. Otopark örneği referans yorumunu yeniden ifade eder; boş metin kuralı etiketleme politikasını hizalar. İstem bu nedenle bağımsız test yönergesi değildir. Kullanılmış istemi ve ham yanıtları değiştirmedim. Aksiyon yönergesinin özgün konuşmadaki istemle birebir eşitliği doğrulanamadı; dosya süreçteki kısıtları belgeliyor.
+
+En yararlı iki gerçek etiketleme istemi, aşağıda tam ve birebir:
+
+İSTEM 1 — ilk metin etiketleme:
+Bu sohbetin LLM'i olarak aşağıdaki Türkçe servis geri bildirimlerini etiketle. Yalnızca metnin anlamını kullan; müşteri churn durumunu görme. duygu yalnızca Olumlu, Olumsuz, Karışık, Alakasız olabilir. konular çoklu etiket: randevu, fiyat, süre, personel, iş_kalitesi, yedek_parça, temizlik, diğer. Olumlu ve olumsuz unsurlar birlikteyse Karışık; açık ironi varsa gerçek niyeti etiketle. Boş veya anlamsız metni Alakasız/diğer yap. Konu belirtilmeyen kısa değerlendirmeyi diğer yap. Olumsuzlama ve çekingen olumlu ifadeleri dikkatle oku. Her birebir farklı metin için duygu ve konu listesi döndür; aynı metne aynı çıktı aktarılacak. Kullanıcı altın setini üretme.
+
+
+İSTEM 2 — insan bulgularına dayalı bonus değerlendirmesi:
+Türkçe yetkili servis yorumlarını anlamlarına göre etiketle. Duygu: Olumlu, Olumsuz, Karışık veya Alakasız. Konular çoklu liste: randevu, fiyat, süre, personel, iş_kalitesi, yedek_parça, temizlik, diğer. Yalnız girdinin anlamına göre karar ver; kimlik, müşteri hedefi veya referans cevap kullanma.
+
+Boş/anlamsız metin: Alakasız ve []. Anlamlı fakat somut konusu bulunmayan genel değerlendirme: diğer. Olumlu ve olumsuz değerlendirme birlikteyse Karışık; açık ironide yüzeydeki övgü yerine asıl eleştiriyi değerlendir. Çift olumsuzlamayı gerçek anlamıyla oku. Beklentiyi karşılama, mükemmel olmamakla birlikte şikâyet içermiyorsa olumlu olabilir. Belirsizlikte tek savunulabilir duygu seç; açıklanmayan bir sorunu uydurma.
+
+İş kalitesi: bakım/onarımın çözülmesi, düzgün yapılması veya sorunsuz hizmet sonucu. Bu konuda teknik bir arıza adı şart değil; bağlamdaki “sorunsuz” gibi sonuç ifadelerini atlama. Yalnız genel “servis iyi” övgüsünden belirli bir onarım sonucu çıkarma. Örnek: “Bakımdan sonra araç düzgün çalışıyor.” -> iş_kalitesi. “Hizmet güzeldi, otopark yetersizdi.” -> diğer, Karışık.
+
+Personel: çalışanların tutumu, ilgisi, açık iletişimi, haber vermesi veya bilgilendirmemesi; çalışanlara teşekkür de bu kapsamdadır. Yalnız meşgul hattan çalışan tutumu çıkarma. Fiyat: ücret, teklif, fatura veya fiyat kıyası. Fatura şikâyeti yanında açık bilgilendirilmeme varsa iki konuyu da değerlendir; referansla uyum için anlamlı bir konuyu bastırma.
+
+Randevu: randevu alma/değiştirme veya randevu sistemi. Yalnız randevu saatinde bekletilmek süre konusudur; ayrıca randevu süreci sorunu yoksa randevu ekleme. Süre: erken/geç bitme, işlem/teslim/bekleme süresine yönelik açık değerlendirme. Yedek parça: parça temini/bulunabilirliği. Parça bekleme süresi veya beklemekten duyulan rahatsızlık açıkça anlatılıyorsa yedek_parça ve süre birlikte seçilir. Bu sınır tartışmalı olsa da açık süre içeriği gizlenmez.
+
+Temizlik: araç/servis alanının temizliği. Diğer: konuların dışında kalan içerik veya somut konusu olmayan anlamlı değerlendirme. Bütün açık konuları seç; teknik etiketlerin yazımını koru. Aynı metne aynı etiket ver.
+
+Çıktı yalnız JSON dizisi: her nesnede i (anonim sıra), duygu, konular (liste). Girdideki her metni bir kez etiketle. Liste boş olabilir. Örnek cümleler çıktı girdisi değildir.

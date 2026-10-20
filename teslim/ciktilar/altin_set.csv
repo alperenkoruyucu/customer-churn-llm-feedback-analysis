@@ -1,0 +1,41 @@
+geri_bildirim_id,metin,duygu,konular,not
+9024,"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Karışık,diğer,"otopark listede yok, diğer"
+9044,Sorun yok.,Olumlu,diğer,konu yok
+9071,"Harika bir deneyimdi, sadece üç hafta bekledim.",Karışık,süre,"ironi gibi, duygu Olumsuz olma ihtimali var"
+9082,"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,"personel, fiyat",
+9091,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,"temizlik, personel, yedek_parça",
+9119,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,
+9133,"Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",Olumsuz,iş_kalitesi,arıza tekrar etmiş
+9136,"Servis temizdi ve ekip güler yüzlüydü, yalnızca yedek parça beklemesi can sıkıcıydı.",Karışık,"temizlik, personel, yedek_parça",
+9177,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,"iş_kalitesi, personel",
+9193,"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat,
+9200,"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat,
+9204,İşçilik kalitesi iyiydi ama fiyatlandırma gerçekten pahalı.,Karışık,"iş_kalitesi, fiyat",
+9214,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,"randevu, süre",
+9260,Bir yıldız bile fazla.,Olumsuz,diğer,konu belirtmemiş
+9261,Teşekkürler,Olumlu,diğer,konu yok
+9266,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,
+9300,"Fatura tutarı verilen tekliften yüksek çıktı, önceden bilgilendirilmedim.",Olumsuz,fiyat,
+9306,"Beklediğimden erken bitti, aradılar haber verdiler.",Olumlu,"süre, personel",erken bitti + haber verdiler
+9319,"Aracı teslim alırken içi temizlenmişti, güzel bir detay.",Olumlu,temizlik,
+9327,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,
+9330,Mükemmel değildi ama beklentimin altında da kalmadı.,Karışık,diğer,"konu yok, Olumlu da olabilir"
+9337,"Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",Olumlu,"personel, süre",söz verilen saat → süre
+9370,"Arıza giderilmemiş, aynı ses devam ediyor. Tekrar gitmek zorunda kaldım.",Olumsuz,iş_kalitesi,
+9418,"İkinci kez geliyorum, yine sorunsuz. Ekibe teşekkürler.",Olumlu,"iş_kalitesi, personel",
+9421,Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,diğer,fiyatla ilgili ama şikâyet doğrudan fiyat değil
+9429,"Ödeme sırasında POS çalışmadı, nakit aramak zorunda kaldım.",Olumsuz,diğer,listede karşılığı yok
+9431,Sorun yok.,Olumlu,diğer,konu yok
+9437,"Danışman ilgisizdi, sorduğum soruya doğru düzgün cevap vermedi.",Olumsuz,personel,
+9451,?,Alakasız,,anlamlı içerik yok
+9471,Kampanya mesajı geldi ama şubede geçerli değilmiş.,Olumsuz,diğer,listede karşılığı yok
+9483,"Fiyat çok yüksek geldi, aynı işi özel serviste yarı fiyata yaptırabilirdim.",Olumsuz,fiyat,
+9524,Kötü diyemem ama bir daha gelir miyim bilmiyorum.,Karışık,diğer,"kararsız, Olumsuza yakın"
+9526,Teşekkürler,Olumlu,diğer,konu yok
+9571,"Servis ekibi çok ilgiliydi, aracım söz verilen saatte hazırdı. Teşekkürler.",Olumlu,"personel, süre",
+9578,"Randevu almak kolaydı, işlem hızlı bitti. Memnun kaldım.",Olumlu,"randevu, süre",
+9589,"Aracımın içinde yağ lekesi bıraktılar, koltuk kirlenmişti.",Olumsuz,temizlik,
+9598,Fena değildi.,Olumlu,diğer,"belirsiz, hafif olumlu"
+9600,"Danışman bey her adımı tek tek anlattı, fiyat konusunda da şeffaftı.",Olumlu,"personel, fiyat",
+9622,"Servis iyi de otopark yok, aracı sokağa bırakmak zorunda kaldım.",Karışık,diğer,
+9639,,Alakasız,,metin boş
